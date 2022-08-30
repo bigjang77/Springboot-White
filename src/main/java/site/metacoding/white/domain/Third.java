@@ -6,14 +6,6 @@ public class Third {
 	private String title;
 	private String content;
 	
-	
-	
-	
-	@Override
-	public String toString() {
-		return "Third [id=" + id + ", title=" + title + ", content=" + content + "]";
-	}
-
 	public Third() {
 		System.out.println("Third 디폴트 생성자 실행됨");
 	}
@@ -40,5 +32,9 @@ public class Third {
 		this.content = content;
 	}
 	
+		@Override
+	public String toString() {
+		return "Third [id=" + id + ", title=" + title + ", content=" + content + "]";
+	}
 	
 }
